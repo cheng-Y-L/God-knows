@@ -1,0 +1,73 @@
+/*全部设计*/
+ul, li, body, html {
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+
+/*部分设计*/
+.body {
+    position: relative;
+}
+
+.wrap {
+    position: absolute;
+    top: 10vh;
+    left: 50%;
+    transform:translate(-50%,0);
+    height:auto;
+    /*background-color: orange;*/
+
+}
+.search_form{
+    width:800px;
+    height:auto;
+}
+
+.logo{
+    font-size: 50px;
+    /*color:orange;*/
+    text-align: center;
+    margin:20px;
+    background: linear-gradient(to right,#f97794,#623aa2);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.form_group {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom:15px;
+}
+.input_text{
+    width:600px;
+    height:30px;
+    line-height: 30px;
+}
+
+.hotkey{
+    margin-left:70px;
+}
+.wether_list{
+    display: flex;
+    text-align: center;
+}
+.wether_list li{
+    margin-right:10px;
+}
+.iconfont{
+    font-size: 30px;
+    color:orange;
+
+}
+.info_temp{
+    font-size: 15px;
+}
+.info_date{
+    font-size: 15px;
+}
